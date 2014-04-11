@@ -65,6 +65,11 @@ public class MainActivity extends Activity {
 	    super.onResume();
 
 	  }
+	  
+	   public void getAudioFeed(){
+		  mModule.getAudioFeed();
+	  }
+
 
 
 }
